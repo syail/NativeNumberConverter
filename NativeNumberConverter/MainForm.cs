@@ -69,27 +69,7 @@ namespace NativeNumberConverter
             }
         }
 
-        private void txtInput_TextChanged(object sender, EventArgs e)
-        {
-            UpdateOutput();
-        }
-
-        private void rdoFromUint32_CheckedChanged(object sender, EventArgs e)
-        {
-            UpdateOutput();
-        }
-
-        private void rdoFromFloat32_CheckedChanged(object sender, EventArgs e)
-        {
-            UpdateOutput();
-        }
-
-        private void rdoToUint32_CheckedChanged(object sender, EventArgs e)
-        {
-            UpdateOutput();
-        }
-
-        private void rdoToFloat32_CheckedChanged(object sender, EventArgs e)
+        private void OnChanged(object sender, EventArgs e)
         {
             UpdateOutput();
         }

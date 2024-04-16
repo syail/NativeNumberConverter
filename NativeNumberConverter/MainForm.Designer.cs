@@ -62,7 +62,7 @@
             rdoFromFloat32.TabIndex = 2;
             rdoFromFloat32.Text = "float32";
             rdoFromFloat32.UseVisualStyleBackColor = true;
-            rdoFromFloat32.CheckedChanged += rdoFromFloat32_CheckedChanged;
+            rdoFromFloat32.CheckedChanged += OnChanged;
             // 
             // rdoFromUint32
             // 
@@ -75,7 +75,7 @@
             rdoFromUint32.TabStop = true;
             rdoFromUint32.Text = "uint32";
             rdoFromUint32.UseVisualStyleBackColor = true;
-            rdoFromUint32.CheckedChanged += rdoFromUint32_CheckedChanged;
+            rdoFromUint32.CheckedChanged += OnChanged;
             // 
             // groupBox2
             // 
@@ -99,7 +99,7 @@
             rdoToFloat32.TabStop = true;
             rdoToFloat32.Text = "float32";
             rdoToFloat32.UseVisualStyleBackColor = true;
-            rdoToFloat32.CheckedChanged += rdoToFloat32_CheckedChanged;
+            rdoToFloat32.CheckedChanged += OnChanged;
             // 
             // rdoToUint32
             // 
@@ -110,7 +110,7 @@
             rdoToUint32.TabIndex = 0;
             rdoToUint32.Text = "uint32";
             rdoToUint32.UseVisualStyleBackColor = true;
-            rdoToUint32.CheckedChanged += rdoToUint32_CheckedChanged;
+            rdoToUint32.CheckedChanged += OnChanged;
             // 
             // txtInput
             // 
@@ -118,7 +118,7 @@
             txtInput.Name = "txtInput";
             txtInput.Size = new Size(174, 23);
             txtInput.TabIndex = 4;
-            txtInput.TextChanged += txtInput_TextChanged;
+            txtInput.TextChanged += OnChanged;
             // 
             // label1
             // 
